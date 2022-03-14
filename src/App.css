@@ -15,10 +15,12 @@
 .Bedroom1 { 
   grid-area: Bedroom1; 
   background-color: #61dafb;
+  padding-top: 40%;
 }
 .LivingRoom {
   grid-area: LivingRoom; 
   background-color: tan;
+  padding-top: 50%;
 }
 .Kitchen {
     display: grid; 
@@ -27,33 +29,37 @@
     gap: 0px 0px; 
     grid-template-areas: 
       "Oven Sink"
-      ". ."; 
+      "Kitchen Kitchen"; 
     grid-area: Kitchen; 
     background-color: orange;
 }
 .FullBath { 
   grid-area: FullBath; 
   background-color: greenyellow;
+  padding-top: 20%;
 }
 .Bedroom2 { 
   grid-area: Bedroom2; 
   background-color: #61dafb;
+  padding-top: 40%;
 }
 .HalfBath { 
   grid-area: HalfBath; 
   background-color: greenyellow;
+  padding-top: 80%;
 }
 .Bedroom3 {
   grid-area: Bedroom3; 
   background-color: #61dafb;
-  }
-  .Sink { 
+  padding-top: 40%;
+}
+.Sink { 
     grid-area: Sink; 
     background-color: brown;
-    margin: 0;
-  }
-  .Oven { 
+    padding-top: 20%;
+}
+.Oven { 
     grid-area: Oven; 
     background-color: red;
-    margin: 0;
-  }
+    padding-top: 20%;
+}

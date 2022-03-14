@@ -5,9 +5,9 @@ function Kitchen() {
   return (
     <>
     <div className="Kitchen">
-      Kitchen
-    <Sink />
-    <Oven />
+        Kitchen
+      <Sink />
+      <Oven />
     </div>
     </>
   )
