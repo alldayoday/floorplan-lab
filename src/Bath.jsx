@@ -1,6 +1,6 @@
 function Bath(props) {
   return (
-    <div>
+    <div className={props.size}>
       {props.size}
     </div>
   )

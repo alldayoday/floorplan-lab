@@ -1,6 +1,6 @@
 function Bedroom(props) {
   return (
-    <div>
+    <div className={props.bedNum}>
       {props.bedNum}
     </div>
   )
